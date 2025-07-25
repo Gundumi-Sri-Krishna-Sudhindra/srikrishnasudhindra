@@ -754,7 +754,7 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .work .box-container .box {
-  flex: 1 1 40rem; /* Increased card width */
+  flex: 1 1 32rem; /* Reduced card width */
   border-radius: 0.8rem;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   position: relative;
@@ -766,7 +766,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
 }
 .work .box-container .box img {
-  height: 250px; /* Increased image height */
+  height: 200px; /* Increased image height */
   width: 100%;
   object-fit: cover;
 }
@@ -781,33 +781,34 @@ header .navbar ul li a:hover {
   flex-grow: 1;
 }
 .work .box-container .box .content .tag {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: auto;
-  width: 100%;
-  padding-left: 0;
-  background: transparent;
-  margin-bottom: 1.5rem; /* More space below title */
+  justify-content: center;
 }
 .work .box-container .box .content .tag h3 {
-  font-size: 2.2rem; /* Increased title size */
+  font-size: 1.7rem; /* Reduced title size */
   color: #333;
+  text-align: center;
+  margin-bottom: 1.2rem; /* Add line space below title */
 }
-.work .box-container .box:hover .content {
-  top: auto; /* Removed the hover effect */
+.work .desc strong {
+  font-size: 1.25rem; /* Increase features and tech stack title size */
+  display: block;
+  margin-bottom: 0.5rem;
 }
-.work .desc {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1; /* Allow desc to fill space */
-  justify-content: space-between;
+.work .desc .features,
+.work .desc .tech-stack ul {
+  font-size: 1.15rem; /* Increase features and tech stack points size */
+  margin-bottom: 1.2rem;
+  margin-top: 0;
+  padding-left: 1.5rem;
+  list-style: disc inside;
+}
+.work .desc .tech-stack ul {
+  margin-top: 0.5rem;
 }
 .work .desc p {
-  font-size: 1.6rem; /* Increased description font size */
+  font-size: 1.3rem; /* Reduced description font size */
   line-height: 1.6;
+  margin-bottom: 1.2rem; /* Add line space below description */
 }
 .work .desc .btns {
   display: flex;
@@ -1069,7 +1070,7 @@ header .navbar ul li a:hover {
   left: -7vw;
 }
 .experience .right {
-  left: 38vw;
+  left: 45vw;
 }
 .experience .container::before {
   content: "";

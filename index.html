@@ -243,182 +243,112 @@
 
   <div class="box-container">
 
-    <!-- Project Card 1: Portfolio Website -->
-    <div class="box tilt" onclick="openModal('project1-modal')">
+    <!-- Project Card 1: AaharExpress -->
+    <div class="box tilt">
       <img draggable="false" src="./assets/images/aaharexpress.png" alt="AaharExpress" />
       <div class="content">
         <div class="tag">
           <h3>AaharExpress</h3>
         </div>
         <div class="desc">
-          <p>AaharExpress is a unified food platform that lets users order meals, donate to the needy, and enables restaurants, NGOs, and volunteers to coordinate surplus food redistribution in real time, tackling hunger and food waste across India.</p>
+          <p>
+            AaharExpress is a food platform connecting donors, restaurants, NGOs, and volunteers to order meals, donate, and redistribute surplus food in real time, addressing hunger and food waste in India.
+          </p>
+          <strong>Features:</strong>
+          <ul class="features">
+            <li>Roles: Donor, Restaurant, Volunteer, NGO, Delivery Agent, Admin</li>
+            <li>JWT-secured authentication & role-based access</li>
+            <li>Real-time ordering, donation, and surplus food management</li>
+            <li>Volunteers/NGOs manage pickups and food quality checks</li>
+            <li>Email notifications via Google SMTP</li>
+          </ul>
+          <div class="tech-stack">
+            <strong>Tech Stack:</strong>
+            <ul>
+              <li>Frontend: React + Vite | Backend: Spring Boot | DB: MySQL</li>
+              <li>Auth: JWT | Email: Google SMTP | Deploy: Vercel & Render</li>
+            </ul>
+          </div>
           <div class="btns">
-            <a href="#" class="btn" onclick="event.stopPropagation(); openModal('project1-modal'); return false;"><i class="fas fa-info-circle"></i> View More</a>
-            <a href="https://aahar-express-f.vercel.app/" class="btn" target="_blank" onclick="event.stopPropagation();"><i class="fas fa-eye"></i> Live Demo</a>
+            <a href="https://aahar-express-f.vercel.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> Live Demo</a>
+            <a href="https://github.com/Gundumi-Sri-Krishna-Sudhindra" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
     </div>
+    
 
     <!-- Project Card 2: SafeWebVerify -->
-    <div class="box tilt" onclick="openModal('project2-modal')">
+    <div class="box tilt">
       <img draggable="false" src="./assets/images/safewebverify.jpg" alt="SafeWebVerify" />
       <div class="content">
         <div class="tag">
           <h3>SafeWebVerify</h3>
         </div>
         <div class="desc">
-          <p>SafeWebVerify helps users stay safe online by detecting and blocking phishing websites in real time, aiming to prevent online fraud and ensure a secure browsing experience.</p>
+          <p>
+            SafeWebVerify helps users avoid phishing sites by blocking malicious URLs in real time for secure, fraud-free browsing.
+          </p>
+          <strong>Features:</strong>
+          <ul class="features">
+            <li>Authentication: Signup, login, and profile management</li>
+            <li>Phishing detection with confidence scores (ML-based, 11,000+ samples, 98% accuracy)</li>
+            <li>History tracking: View/delete previous checks</li>
+            <li>Whitelist for trusted domains</li>
+            <li>Responsive, user-friendly dashboard</li>
+          </ul>
+          <div class="tech-stack">
+            <strong>Tech Stack:</strong>
+            <ul>
+              <li>Frontend: React + Vite | Backend: Node.js + Express</li>
+              <li>ML API: Python (Flask, scikit-learn) | DB: MongoDB | Auth: JWT</li>
+            </ul>
+          </div>
           <div class="btns">
-            <a href="#" class="btn" onclick="event.stopPropagation(); openModal('project2-modal'); return false;"><i class="fas fa-info-circle"></i> View More</a>
+            <a href="https://github.com/Gundumi-Sri-Krishna-Sudhindra/SafeWebVerify" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
-    </div>
+    </div>    
 
     <!-- Project Card 3: KarmaSync -->
-    <div class="box tilt" onclick="openModal('project-karmasync-modal')">
+    <div class="box tilt">
       <img draggable="false" src="./assets/images/karmasync.png" alt="KarmaSync" />
       <div class="content">
         <div class="tag">
           <h3>KarmaSync</h3>
         </div>
         <div class="desc">
-          <p>Karma Sync is a simple yet powerful tool for managing projects, tracking progress, and daily tasks. It helps individuals and teams collaborate efficiently, prioritize goals, and boost productivity — all from one clean dashboard.</p>
+          <p>
+            KarmaSync is a streamlined tool for managing projects, tracking tasks, and boosting team productivity from one clean dashboard.
+          </p>
+          <strong>Features:</strong>
+          <ul class="features">
+            <li>Personal and team projects with role management</li>
+            <li>Visual Kanban board: To-Do → Doing → Done</li>
+            <li>Dashboard for daily tasks with filtering and priority</li>
+            <li>JWT auth with email OTP for signup and recovery</li>
+            <li>Email notifications via Gmail SMTP and EmailJS support</li>
+            <li>User profiles and contact support integration</li>
+          </ul>
+          <div class="tech-stack">
+            <strong>Tech Stack:</strong>
+            <ul>
+              <li>Frontend: React | Backend: Node.js + Express (MVC) | DB: MongoDB Atlas</li>
+              <li>Auth: JWT, Email OTP | Mailing: Gmail SMTP, EmailJS | Deploy: Vercel & Render</li>
+            </ul>
+          </div>
           <div class="btns">
-            <a href="#" class="btn" onclick="event.stopPropagation(); openModal('project-karmasync-modal'); return false;"><i class="fas fa-info-circle"></i> View More</a>
-            <a href="https://karmasync.vercel.app/" class="btn" target="_blank" onclick="event.stopPropagation();"><i class="fas fa-eye"></i> Live Demo</a>
+            <a href="https://karmasync.vercel.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> Live Demo</a>
+            <a href="https://github.com/Gundumi-Sri-Krishna-Sudhindra/KarmaSync_Info" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
     </div>
-
-  </div>
+    
 
 </section>
 <!-- work project section ends -->
-
-<!-- Project Modals -->
-<div id="project-modals">
-  <!-- Modal for Project 1 -->
-  <div id="project1-modal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal('project1-modal')">&times;</span>
-      <h2>AaharExpress</h2>
-      <div class="modal-body">
-        <div class="modal-section">
-          <h3>📝 Motive</h3>
-          <p>AaharExpress is a unified food platform that lets users order meals, donate to the needy, and enables restaurants, NGOs, and volunteers to coordinate surplus food redistribution in real time, tackling hunger and food waste across India.</p>
-        </div>
-        <div class="modal-section">
-          <h3>🔧 Features</h3>
-          <ul>
-            <li>User roles: Donor, Restaurant, Volunteer, NGO, Delivery Agent, Admin</li>
-            <li>JWT-based login/signup with secure role-based access</li>
-            <li>Real-time food ordering and delivery system</li>
-            <li>Surplus food uploads by restaurants</li>
-            <li>Donation tracking and pickups managed by volunteers and NGOs</li>
-            <li>Food quality checks before distribution</li>
-            <li>Seamless donation flow for users and donors</li>
-            <li>Email notifications via Google SMTP</li>
-          </ul>
-        </div>
-        <div class="modal-section">
-          <h3>⚙️ Tech Stack</h3>
-          <p>Frontend: React + Vite</p>
-          <p>Backend: Spring Boot</p>
-          <p>Database: MySQL</p>
-          <p>Authentication: JWT</p>
-          <p>Email Services: Google SMTP</p>
-          <p>Deployment: Vercel (Frontend), Render (Backend)</p>
-        </div>
-        
-      </div>
-      <div class="modal-buttons">
-        <a href="https://aahar-express-f.vercel.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> Live Demo</a>
-        <a href="https://github.com/Gundumi-Sri-Krishna-Sudhindra" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal for Project 2 -->
-  <div id="project2-modal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal('project2-modal')">&times;</span>
-      <h2>SafeWebVerify</h2>
-      <div class="modal-body">
-        <div class="modal-section">
-          <h3>📝 Motive</h3>
-          <p>To protect users from phishing attacks by detecting malicious websites in real time using a machine learning model, enhancing overall web safety and awareness.</p>
-        </div>
-        <div class="modal-section">
-          <h3>🔧 Features</h3>
-          <ul>
-            <li>User authentication with signup, login, and profile management</li>
-            <li>Real-time phishing URL detection with confidence scoring</li>
-            <li>History tracking with options to view and delete past checks</li>
-            <li>Whitelist detection for trusted domains</li>
-            <li>Responsive UI with user-friendly dashboard and interactions</li>
-            <li>ML model trained on 11,000+ samples with 98% detection accuracy</li>
-          </ul>
-        </div>
-        <div class="modal-section">
-          <h3>⚙️ Tech Stack</h3>
-          <p>Frontend: React + Vite</p>
-          <p>Backend: Node.js + Express</p>
-          <p>ML API: Python (Flask, scikit-learn)</p>
-          <p>Database: MongoDB</p>
-          <p>Authentication: JWT</p>
-        </div>
-      </div>
-      <div class="modal-buttons">
-        <a href="https://safewebverify.vercel.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> Live Demo</a>
-        <a href="https://github.com/Gundumi-Sri-Krishna-Sudhindra/SafeWebVerify" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-      </div>
-    </div>
-  </div>
-  
-
-  <!-- Modal for Project 3 -->
-  <div id="project-karmasync-modal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal('project-karmasync-modal')">&times;</span>
-      <h2>Karma Sync</h2>
-      <div class="modal-body">
-        <div class="modal-section">
-          <h3>📝 Motive</h3>
-          <p>Karma Sync is a modern, lightweight Agile Project Management Suite that helps individuals and teams manage projects, track issues, and stay productive with a built-in daily to-do tracker — all from one clean dashboard.</p>
-        </div>
-        <div class="modal-section">
-          <h3>🔧 Features</h3>
-          <ul>
-            <li>Create personal and collaborative projects</li>
-            <li>Visual Kanban board: To-Do → Doing → Done</li>
-            <li>Assign and manage project issues and team roles</li>
-            <li>Dedicated dashboard for personal daily tasks with filtering and priority</li>
-            <li>JWT-based authentication with email OTP for account creation and recovery</li>
-            <li>Email notifications via Gmail SMTP and contact handling via EmailJS</li>
-            <li>User profile management and contact support integration</li>
-          </ul>
-        </div>
-        <div class="modal-section">
-          <h3>⚙️ Tech Stack</h3>
-          <p>Frontend: React</p>
-          <p>Backend: Node.js + Express (MVC)</p>
-          <p>Database: MongoDB Atlas</p>
-          <p>Authentication: JWT, Email OTP</p>
-          <p>Mailing: Gmail SMTP (Send), EmailJS (Receive)</p>
-          <p>Deployment: Vercel (Frontend), Render (Backend)</p>
-        </div>
-      </div>
-      <div class="modal-buttons">
-        <a href="https://karmasync.vercel.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> Live Demo</a>
-        <a href="https://github.com/Gundumi-Sri-Krishna-Sudhindra/KarmaSync_Info" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-      </div>
-    </div>
-  </div>
-  
-<!-- End of Project Modals -->
 
 <!-- experience section starts -->
 <section class="experience" id="experience">
@@ -426,18 +356,6 @@
   <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
 
   <div class="timeline">
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Self Employed</h2>
-        </div>
-        <div class="desc">
-            <h3>Full Stack Developer</h3>
-            <p>Present</p>
-        </div>
-      </div>
-    </div>
 
     <div class="container left">
       <div class="content">
