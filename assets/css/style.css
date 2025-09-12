@@ -86,6 +86,19 @@ section {
 .heading span {
   color: rgb(115, 3, 167);
 }
+/* section heading custom icon */
+.section-icon {
+  height: 60px;
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+@media (max-width: 600px) {
+  .section-icon {
+    height: 34px;
+    width: 34px;
+  }
+}
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
@@ -520,6 +533,8 @@ header .navbar ul li a:hover {
   flex-wrap: unset;
   justify-content: unset;
   gap: 2rem;
+  justify-items: stretch;
+  align-items: stretch;
 }
 .skills .container .bar {
   margin-bottom: 15px;
@@ -556,6 +571,7 @@ header .navbar ul li a:hover {
   padding: 2.5rem 2rem 2rem 2rem;
   margin: 0;
   min-width: 0;
+  width: 100%;
   max-width: 100%;
   display: block;
   vertical-align: unset;
@@ -618,7 +634,8 @@ header .navbar ul li a:hover {
 }
 @media (max-width: 900px) {
   .skills-category {
-    min-width: 220px;
+    min-width: 0;
+    width: 100%;
     max-width: 100%;
     margin: 1.2rem 0.5rem;
     padding: 1.5rem 1rem;
@@ -989,7 +1006,7 @@ header .navbar ul li a:hover {
   background: linear-gradient(270deg, #2506ad 0%, #ffae00 100%);
 }
 .research .container::after {
-  content: "\f0c3"; /* flask icon */
+  content: "\f0a3"; /* certificate icon for patent */
   position: absolute;
   width: 32px;
   height: 32px;
@@ -1162,7 +1179,7 @@ header .navbar ul li a:hover {
   border-color: #cbd5e1;
 }
 .research .pub-card .pub-title {
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: #0f172a;
   margin-bottom: 0.4rem;
@@ -1170,14 +1187,14 @@ header .navbar ul li a:hover {
   position: relative;
 }
 .research .pub-card .pub-title::before {
-  content: "\f0c3";
+  content: "\f0a3"; /* certificate icon */
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #1f3a93;
   margin-right: 8px;
 }
 .research .pub-card .pub-meta {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #64748b;
   margin-bottom: 0.8rem;
   text-align: center;

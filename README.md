@@ -4,14 +4,13 @@ Welcome to the personal portfolio of **Gundumi Sri Krishna Sudhindra** – an as
 
 ## 🚀 Live Preview
 
-<!-- Add your live site link below if deployed -->
-<!-- [Visit Portfolio](https://your-portfolio-link.com) -->
+[Visit Portfolio](https://www.srikrishnasudhindra.me/) - Experience the full interactive portfolio with all features and animations.
 
 ---
 
 ## 📌 About the Website
 
-This is a modern, responsive portfolio website built with **HTML5**, **CSS3**, and **JavaScript**. It showcases my skills, education, projects, experience, and certifications in a clean, user-friendly layout.
+This is a modern, responsive portfolio website built with **HTML5**, **CSS3**, and **JavaScript**. It showcases my skills, education, projects, patents & publications, and certifications in a clean, user-friendly layout.
 
 ### ✨ Key Sections
 
@@ -20,25 +19,38 @@ This is a modern, responsive portfolio website built with **HTML5**, **CSS3**, a
 - **Skills:** Categorized technical and soft skills.
 - **Education:** Academic history with details.
 - **Projects:** Highlighted projects with features, tech stack, and live/code links.
-- **Experience:** Professional and internship experiences.
+- **Patents & Publications:** Showcase of intellectual property and research work.
 - **Certifications:** Display of earned certificates.
 - **Contact:** Contact form and social handles for easy communication.
 
 ### 🛠️ Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Libraries/Plugins:** jQuery, Particle.js, Typed.js, Vanilla Tilt.js, Scroll Reveal, Font Awesome
-- **Other:** Responsive design, modern CSS, and interactive UI elements
+- **Frontend:** HTML5, CSS3, JavaScript, React.js, Vite
+- **Backend:** Node.js, Express.js, Spring Boot
+- **Databases:** MongoDB, MySQL
+- **Cloud & DevOps:** AWS, Azure, Docker, CI/CD
+- **Libraries/Plugins:** jQuery, Particle.js, Typed.js, Vanilla Tilt.js, Scroll Reveal, Font Awesome, EmailJS
+- **Other:** Responsive design, modern CSS, JWT authentication, and interactive UI elements
 
+## 🔬 Patents & Publications
+
+The portfolio now features a dedicated section showcasing intellectual property and research work:
+
+- **Biometric-based Voting System with Multi-layer Authentication**
+  - Application No: IN202541073801
+  - Published: August 2025 (Journal No. 34/2025)
+  - A comprehensive multi-layer biometric voting system that prevents voter impersonation and enhances electoral security through five verification layers: Aadhaar-based fingerprint, facial recognition, OTP verification, voter ID cross-check, and geo-fencing.
 
 ## 📬 Contact
 
 Feel free to connect with me:
 
 - **Email:** srikrishnasudhindra@gmail.com
+- **Phone:** +91 9866259932
 - **LinkedIn:** [Gundumi Sri Krishna Sudhindra](https://www.linkedin.com/in/sri-krishna-sudhindra/)
 - **GitHub:** [Gundumi-Sri-Krishna-Sudhindra](https://github.com/Gundumi-Sri-Krishna-Sudhindra)
 - **Telegram:** [@sudhindra_1](https://t.me/sudhindra_1)
+- **Instagram:** [@sudheendra_1](https://www.instagram.com/sudheendra_1/)
 
 ---
 
