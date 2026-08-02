@@ -160,9 +160,9 @@ function showProjects(projects) {
 
 }
 
-fetchData().then(data => {
-    showSkills(data);
-});
+// fetchData().then(data => {
+//     showSkills(data);
+// });
 
 fetchData("projects").then(data => {
     showProjects(data);
